@@ -1,8 +1,8 @@
 'use strict';
 
-module.exports = pixelmatch;
+module.exports = imageCompare;
 
-function pixelmatch(img1, img2, output, width, height, options) {
+function imageCompare(img1, img2, output, width, height, options) {
 
     if (!options) options = {};
 
