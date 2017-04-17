@@ -1,39 +1,24 @@
 {
-  "name": "pixelmatch",
-  "version": "4.0.1",
-  "description": "The smallest and fastest pixel-level image comparison library.",
+  "name": "image-compare",
+  "version": "1.0.0",
+  "description": "Pixel-level image comparison library.",
   "main": "index.js",
-  "bin": {
-    "pixelmatch": "bin/pixelmatch"
-  },
   "dependencies": {
     "pngjs": "^2.1.0"
   },
-  "devDependencies": {
-    "eslint": "^1.6.0",
-    "eslint-config-mourner": "^1.0.1",
-    "tap": "^2.1.1"
-  },
-  "scripts": {
-    "pretest": "eslint index.js bin/pixelmatch test/test.js",
-    "test": "tap test/test.js"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mapbox/pixelmatch.git"
+    "url": "git+https://github.com/franck34/image-compare.git"
   },
   "keywords": [
     "image",
     "comparison",
     "diff"
   ],
-  "eslintConfig": {
-    "extends": "mourner"
-  },
-  "author": "Vladimir Agafonkin",
-  "license": "ISC",
+  "author": "franck34",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mapbox/pixelmatch/issues"
+    "url": "https://github.com/franck34/image-compare/issues"
   },
-  "homepage": "https://github.com/mapbox/pixelmatch#readme"
+  "homepage": "https://github.com/franck34/image-compare"
 }
